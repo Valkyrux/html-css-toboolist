@@ -1,5 +1,4 @@
-{}
-
+/* basic layout */
 *{
     margin: 0px;
     padding: 0px;
@@ -25,6 +24,16 @@ main{
     padding: 1%;
 }
 
+nav{
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px;
+    padding-left: 5%;
+    vertical-align: middle;
+    font-size: 22px;
+}
+
 section{
     margin-top: 2px;
     background-color: white;
@@ -43,15 +52,6 @@ h2{
     vertical-align: middle;
 }
 
-nav{
-    background-color: white;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    padding: 20px;
-    padding-left: 5%;
-    vertical-align: middle;
-    font-size: 22px;
-}
 
 a{
     text-decoration: none;
@@ -71,12 +71,12 @@ li{
     line-height: 60px;
     font-size: 22px;
 }
-
+/* logo placement */
 #logo{
     vertical-align: middle;
 }
 
-
+/* nav buttons */
 .main-active{
     background-color: lightskyblue;
     color: white;
@@ -88,8 +88,34 @@ li{
     color: gray;
 }
 
+/* list marker */
+.list-marker{
+    margin-right: 35px;
+    margin-left: 15px;
+}
+
+/* activity check */
+.done{
+    margin: 0px 20px;
+    line-height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    color: green;
+}
+
+.not{
+    color: red;
+}
+
+/* activity info */
 .activity-info{
-    margin: 0 20px;
+    margin: 0px 20px;
     padding: 2px 10px;
     border-radius: 10px;
     display: inline-block;
@@ -102,4 +128,24 @@ li{
 
 .editor{
     background-color: lightseagreen;
+}
+
+.qgoal{
+    background-color: purple;
+}
+
+.recruting{
+    background-color: green;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: violet;
+}
+
+.sales{
+    background-color: lime;
 }
