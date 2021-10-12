@@ -19,14 +19,41 @@ header{
       
 }
 
-#logo{
-    vertical-align: middle;
-}
-
-
 h1{
     display: inline-block;
     font-size: 250%;
     vertical-align: middle;
 }
 
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    border-width: 2px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+#main-header{
+    margin: 2.5% auto;
+    width: 70%;
+    padding: 1%;
+    padding-left: 5%;
+    vertical-align: middle;
+    font-size: 19px;
+}
+
+.main-active{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.main-deactive{
+    border-style: solid; 
+    border-color: gray;
+    color: gray;
+}
