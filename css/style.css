@@ -53,13 +53,13 @@ h2{
 }
 
 
-a{
+.class{
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
     padding: 10px;
     text-align: center;
-    border-width: 2px;
+    /* border-width: 2px; */
 }
 
 ul{
